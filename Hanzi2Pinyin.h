@@ -21,9 +21,16 @@ public:
 
     QString find(const QString &hanzi)
     {
-        if (m_map.contains(hanzi))
-            return m_map[hanzi].first();
-        return "";
+        QString output;
+        QStringList stringList = hanzi.split("");
+        for (const QString &str : stringList) {
+            if (m_map.contains(str))
+                output += m_map[str].first();
+            else
+                output += str;
+        }
+
+        return output;
     }
 
 private:
