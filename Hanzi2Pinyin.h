@@ -1,4 +1,11 @@
-﻿#ifndef HANZI2PINYIN_H
+﻿/**********************************************************
+ * Author: Qt君
+ * 微信公众号: Qt君(首发)
+ * QQ群: 732271126
+ * Email: 2088201923@qq.com
+ * Github: https://github.com/aeagean/Hanzi2Pinyin
+ **********************************************************/
+#ifndef HANZI2PINYIN_H
 #define HANZI2PINYIN_H
 
 #include <QMap>

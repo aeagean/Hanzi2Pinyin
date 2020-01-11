@@ -1,4 +1,11 @@
-﻿#include "Widget.h"
+﻿/**********************************************************
+ * Author: Qt君
+ * 微信公众号: Qt君(首发)
+ * QQ群: 732271126
+ * Email: 2088201923@qq.com
+ * Github: https://github.com/aeagean/Hanzi2Pinyin
+ **********************************************************/
+#include "Widget.h"
 #include "ui_Widget.h"
 #include "Hanzi2Pinyin.h"
 
