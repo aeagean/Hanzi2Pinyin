@@ -16,6 +16,7 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
         main.cpp \
     Widget.cpp
+RC_ICONS = app.ico
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
